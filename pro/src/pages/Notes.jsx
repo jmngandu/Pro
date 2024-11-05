@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { databases } from "../appwrite/config";
+import { database } from "../appwrite/config";
 function Notes() {
   const [notes, setNotes] = useState([]);
 
